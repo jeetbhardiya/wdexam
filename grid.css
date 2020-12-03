@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #d4d4d4;
+}
+
+img{
+    padding: 10px;
+}
+
+.doc1{grid-area: doc1;}
+.doc2{grid-area: doc2;}
+.doc3{grid-area: doc3;}
+.doc4{grid-area: doc4;}
+.doc5{grid-area: doc5;}
+.doc6{grid-area: doc6;}
+.doc7{grid-area: doc7;}
+.doc8{grid-area: doc8;}
+.doc9{grid-area: doc9;}
+.doc10{grid-area: doc10;}
+
+.doc11{grid-area: doc11;}
+.doc12{grid-area: doc12;}
+.doc13{grid-area: doc13;}
+.doc14{grid-area: doc14;}
+.doc15{grid-area: doc15;}
+.doc16{grid-area: doc16;}
+.doc17{grid-area: doc17;}
+.doc18{grid-area: doc18;}
+.doc19{grid-area: doc19;}
+.doc20{grid-area: doc20;}
+.doc21{grid-area: doc21;}
+.doc22{grid-area: doc22;}
+.doc23{grid-area: doc23;}
+.doc24{grid-area: doc24;}
+.doc25{grid-area: doc25;}
+.doc26{grid-area: doc26;}
+.doc27{grid-area: doc27;}
+.doc28{grid-area: doc28;}
+.doc29{grid-area: doc29;}
+.doc30{grid-area: doc30;}
+
+.doc31{grid-area: doc31;}
+.doc32{grid-area: doc32;}
+.doc33{grid-area: doc33;}
+.doc34{grid-area: doc34;}
+.doc35{grid-area: doc35;}
+.doc36{grid-area: doc36;}
+
+
+.container{
+    display: grid;
+    grid-template-areas: 'doc1 doc2 doc3 doc4 doc5 doc6'
+                        'doc7 doc8 doc9 doc10 doc11 doc12'
+                        'doc13 doc14 doc15 doc16 doc17 doc18'
+                        'doc19 doc20 doc21 doc22 doc23 doc24'
+                        'doc25 doc26 doc27 doc28 doc29 doc30'
+                        'doc31 doc32 doc33 doc34 doc35 doc36'; 
+    justify-content: space-between;
+    align-content: center;
+}
+
+.resize{
+    transition: transform .2s;
+}
+
+.resize:hover{
+    position: absolute;
+    z-index: 1;
+    transform: scale(1.5); 
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
